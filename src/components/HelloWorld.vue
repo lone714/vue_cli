@@ -1,8 +1,13 @@
 <template>
-  <div class="hello">
-    <div class="img">
-      <img src="" alt="">
+  <div class="hello" :class="type">
+    <div class="img" v-for="item in 6" :key="item">
+      <!-- <img alt="Vue logo" src="../assets/logo.png"> -->
+      <!-- <img alt="Vue logo" :src="require('@/assets/logo.png')"> -->
+      <img alt="Vue logo" :src="require(`@/assets/images/avatar/report_avatar_1.png`)"/>
     </div>
+
+
+
     <div>
       <p>{{ title }}</p>
       <p>{{ msg }}</p>
@@ -16,7 +21,8 @@ export default {
   name: 'HelloWorld',
   props: {
     title: String,
-    msg: String
+    msg: String,
+    type: String
   }
 }
 </script>
@@ -47,4 +53,5 @@ li {
 a {
   color: #42b983;
 }
+
 </style>
