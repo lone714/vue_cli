@@ -14,6 +14,7 @@
   <router-view/>
   
   <footer>Footer</footer>
+  
 </template>
 
 <style lang="scss">
