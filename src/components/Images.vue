@@ -1,12 +1,13 @@
 <template>
-    <div>
-        img
+    <div class="ing">
+        <img :src="link" alt="">
+        <HelloWorld title="緊張喔"/>
     </div>
 </template>
 <script>
 export default {
-  components: {
-    HelloWorld
+  props: {
+    link: String
   }
 }
 </script>

@@ -1,18 +1,18 @@
 <template>
   <header>
-  Header
-  <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link> |
-    <router-link to="/news">news</router-link> |
-    <router-link to="/product">product</router-link>
+    Header
+    <nav>
+      <router-link to="/">Home</router-link> |
+      <router-link to="/about">About</router-link> |
+      <router-link to="/news">news</router-link>|
+      <router-link to="/product">product</router-link>  
 
-  </nav>
+    </nav>
   123
   </header>
 
   <router-view/>
-  
+
   <footer>Footer</footer>
 
 </template>
@@ -28,10 +28,14 @@
 body {
   margin: 0;
   padding: 0;
-  }
-  header{
-    background-color: #eee;
-  }
+}
+header{
+  background: #111;
+}
+footer{
+  background: #ddd;
+  height: 10rem;
+}
 nav {
   padding: 30px;
 

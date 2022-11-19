@@ -1,11 +1,11 @@
 <template>
   <div class="hello">
     <div class="img">
-      
+      <img src="" alt="">
     </div>
     <div>
       <p>{{ title }}</p>
-      <h1>{{ msg }}</h1>
+      <p>{{ msg }}</p>
       <button>搶票唷</button>
     </div>
   </div>
@@ -28,8 +28,10 @@ export default {
   display: inline-flex;
   margin: 1rem;
 }
-.ing{
+.img{
   width: 8rem;
+  height: 8rem;
+  background-color: #ddd;
 }
 h3 {
   margin: 40px 0 0;
