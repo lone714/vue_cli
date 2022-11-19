@@ -3,8 +3,8 @@
   Header
   <nav>
     <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-    <router-link to="/news">news</router-link>
+    <router-link to="/about">About</router-link> |
+    <router-link to="/news">news</router-link> |
     <router-link to="/product">product</router-link>
 
   </nav>
@@ -14,7 +14,7 @@
   <router-view/>
   
   <footer>Footer</footer>
-  
+
 </template>
 
 <style lang="scss">
